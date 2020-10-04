@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage[utf8]{inputenc}
+
+\title{Machine Learning Homework 1}
+\author{Bryttany Herren}
+\date{October 5, 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Problem 1}
+
+Using a value $\alpha = 0.1$, my gradient decent code yielded the following values for the hypothesis function parameters $\theta_0, \theta_1, \theta_2, \theta_3$:
+\begin{align}
+    \theta_0 &= 5.314167 \\
+    \theta_1 &= -2.003719 \\
+    \theta_2 &= 0.532563 \\
+    \theta_3 &= -0.265602
+\end{align}
+Below are some predicted values for $y$ based on different inputs $(x_1,x_2,x_3)$:
+\begin{align}
+    % (x_1,x_2,x_3) \Rightarrow y &= \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_3 \\
+    (1,1,1) \Rightarrow y   &= (5.314167) + (-2.003719)(1) \nonumber \\
+                            &+ (0.532563)(1) + (-0.265602)(1) = \textbf{3.577409} \\
+    (2,0,4) \Rightarrow y   &= (5.314167) + (-2.003719)(2) \nonumber \\
+                            &+ (0.532563)(0) + (-0.265602)(4) = \textbf{0.244321} \\
+    (3,2,1) \Rightarrow y   &= (5.314167) + (-2.003719)(3) \nonumber \\
+                            &+ (0.532563)(2) + (-0.265602)(1) = \textbf{0.102534} 
+\end{align}
+This is all that was required for problem 1. Check out my code in \texttt{Problem1.c}.
+
+\section{Problem 2}
+My analytical solution code computed the following values for the hypothesis function parameters $\theta_0, \theta_1, \theta_2, \theta_3$:
+\begin{align}
+    \theta_0 &= 2626.268614, \\
+    \theta_1 &= 0.420484, \\
+    \theta_2 &= 12.716237, \\
+    \theta_3 &= -6.496562.
+\end{align}
+This is all that was required for problem 2. Check out my code in \texttt{Problem2.c}.
+
+\end{document}

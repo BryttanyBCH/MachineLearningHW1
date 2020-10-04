@@ -1,5 +1,7 @@
 # Bryttany Herren Machine Learning Homework #1
 
+The focus of this assignment is linear regression.
+
 Compile and run the code for each problem as follows:
 
 Problem 1:

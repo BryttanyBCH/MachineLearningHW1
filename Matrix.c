@@ -192,8 +192,6 @@ double GetDeterminant(Matrix InputMatrix, unsigned int Dim)
 
 void PrintMatrix(Matrix InputMatrix)
 {
-  printf("[%d x %d] Matrix\n", InputMatrix.Height, InputMatrix.Width);
-
   for (unsigned int r = 0; r < InputMatrix.Height; r++)
   {
     for (unsigned int c = 0; c < InputMatrix.Width; c++)
